@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sign in Page</title>
+        <link rel="stylesheet" href="assets/css/signin.css">
+        <!-- <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script> -->
+    </head>
+    <body>
+        <div class="bkg"></div>
+            <div class="container">
+                <h1>SIGN IN FORM</h1>
+                <div class="login_box">
+                    <form action="" method="">
+                        <div class="divide">
+                        
+                            <div class="left_side">
+                                <div class="textbox"></div>
+                                <div class="text_box"><p>First Name</p>
+                                    <input type="text" placeholder="Enter your first name" name="fname" required>
+                                </div>
+                                <div class="text_box"><p>Middle Name</p>
+                                    <input type="text" placeholder="Enter your middle name" name="mname" required>
+                                </div>
+                                <div class="text_box"><p>Last Name</p>
+                                    <input type="text" placeholder="Enter your last name" name="lname" required>
+                                </div>
+                            </div>                   
+
+                            <div class="right_side">
+                                <div class="text_box"><p><img src="imagess/user.png" alt="account" width="13px">&nbsp;&nbsp;Email or Phone</p>
+                                    <input type="email or number" placeholder="Enter your Email id or Phone number" name="email" required>
+                                </div>
+                                <div class="text_box"><p><img src="imagess/lock.png" alt="account" width="13px">&nbsp;&nbsp;Password</p>
+                                    <input type="password" id="password" placeholder="Enter your password" name="password" required>
+                                </div>
+                                <div class="text_box"><p><img src="imagess/lock.png" alt="account" width="13px  ">&nbsp;&nbsp;Confirm Password</p>
+                                    <input type="password" placeholder="Confirm you password" id ="confirm_password" name="cpassword" required>
+                                </div>
+                                <div id="message"></div>
+                            </div>
+
+                        </div><br>      
+                        <div class="submit_box">
+                            <input type="submit" value="SIGN IN">  
+                        </div>
+                    </form> 
+                </div> 
+            </div>
+
+            <script src="assets/js/login.js"></script>
+    </body>
+</html>
